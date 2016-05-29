@@ -1,0 +1,102 @@
+/* Styles for the body background */
+
+body{
+	color: #27211f;
+	background-color: white;
+}
+
+p{
+	font: 18px georgia, sans-serif;
+	text-indent: 20px;
+	line-height: 1.5;
+	margin: 17px;
+}
+/* Heading Styles */
+
+h1, h2, h3, h4, h5,h6 {
+	color:#e96f4b;
+	font-weight: normal;
+	font-family: Verdana, sans-serif;
+}
+
+h1{
+	font-size: 40px;
+	letter-spacing: 1px;
+}
+
+h3 {
+	color: #27211f;
+	font-style: italic;
+	font-family: georgia;
+	font-size: 23px;
+}
+
+h2 {
+	text-decoration: none;
+
+}
+
+
+li{
+	font-size: 16px;
+	font-family:sans-serif;
+	list-style-type: none;
+}
+
+li a{
+	text-align: center;
+}
+
+blockquote{
+	font-style: italic;
+}
+
+a{
+	color: #42a795;
+	text-decoration: none;
+}
+a:hover, a:focus{
+	color: #333;
+}
+
+/* Class overrides */
+
+.who{
+	font-style: normal;
+}
+
+.highlight{
+	text-align: center;
+}
+
+.nav{
+	text-align: center;
+}
+
+.nav li {
+		list-style-type: none;
+		display: inline;
+}
+
+.footer{
+	font-size: 12px;
+}
+
+.cta{
+	font-weight: bold;
+}
+/* this is the id style. can only use a specific id once. Creates a box around the element you choose */
+
+#nav_bar{
+	background-color:
+}
+
+/* Descendent selector: will style all li that are within the ID nav_bar */
+
+#nav_bar li {
+	font-family: sans-serif;
+}
+
+.img{
+	margin-right: 15px;
+}
